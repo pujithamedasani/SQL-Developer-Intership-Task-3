@@ -17,8 +17,8 @@ Learn to retrieve and filter data using SQL SELECT queries.
 
 ## What I did 
 - Created a set of SQL SELECT queries:
- - Using your existing tables: Books, Members, Loans, Fines, etc.
- - Covered all required concepts: filtering, sorting, limiting, etc.
+   - Using your existing tables: Books, Members, Loans, Fines, etc.
+   - Covered all required concepts: filtering, sorting, limiting, etc.
 - Used __SELECT *__ to retrieve all columns from a table.
 - Used **WHERE**, **AND**, **OR** to filter records.
 - Used **BETWEEN** to filter records in a date or value range.
