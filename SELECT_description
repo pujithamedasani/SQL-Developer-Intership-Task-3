@@ -1,0 +1,69 @@
+## SELECT COMMAND: 
+The SELECT command of SQL lets us make queries on the database. A query is a command that is given to produce certain specified information from the database tables. There are several ways and combinations , a SELECT stamen can be used into. It can be used to retrieve a subset of rows and columns from one or more tables.
+
+Syntax:
+
+SELECT <column name> [,<column name>,...]
+FROM <table name>;
+
+## Selecting all Columns:
+
+If u want to see the entire table i.e., every column of a table,you need not gie a complete list of columns. The asterisk(*) can be substituted for a complete list of columns :
+
+SELECT * FROM <table name>;
+
+## Reordering columns :
+
+While querying , the result might be in any order
+
+For example :
+SELECT LoanID, Amount, StaffID ,IssuedDate, Paid FROM Fines;
+
+## Selecting all rows:
+
+If u give ALL , then the result retains the duplicate output rows and the specified rows of the table is shown. ALL is a clarifier than the functional argument.
+
+Syntax:
+
+SELECT ALL < row name > FROM <table name>; 
+
+## Using Column Aliases:
+The columns you select n a query can be given a different name that is., column alias name for output purposes.
+
+Syntax:
+
+SELECT <column name> AS [columnalias] , [,<columname> AS [columnalias]]
+.....
+FROM <table name>;
+
+## Selecting specific rows - WHERE Clause:
+
+When certain rows are needed there is no need to view all the rows.The WHERE clause in SELECT statement specifies the criteria for selection of rows to be returned.
+
+Syntax:
+
+SELECT <column name>[,<column name>,...]
+FROM <table name>
+WHERE <condition>;
+
+## Selection sorting - ORDER BY Clause:
+
+Whenever a SELECT query is executed,the resulting rows merge in predecided order.You can sort the results or query in a specific order using ORDER BY clause.The ORDER BY clause allows sorting by one or more columns.The sorting can be done either in ascending or descending order,the default order is ascending. The data in the table s not sorted l the result or the output is sorted.
+  
+Syntax:
+  
+SELECT <column name> [,<columnname>,...]
+FROM <table name>
+[WHERE <predicate>]
+[ORDER BY <column name>];
+--default sorting is in ascending so it gives result in ascending order.If you want it in descending then [ORDER BY <column name> DESC ];
+
+## LIMIT Clause:
+The LIMIT clause is used tospecify the number of records to return and is usefu on large tables with large number of records.
+
+Syntax:
+
+SELECT <column name>
+FROM <table name>
+WHERE <condition>
+LIMIT number;
