@@ -1,4 +1,4 @@
-**SELECT COMMAND :**
+SELECT COMMAND :
 The SELECT command of SQL lets us make queries on the database. A query is a command that is given to produce certain specified information from the database tables. There are several ways and combinations , a SELECT stamen can be used into. It can be used to retrieve a subset of rows and columns from one or more tables.
 
 Syntax:
