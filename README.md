@@ -23,13 +23,13 @@ Learn to retrieve and filter data using SQL SELECT queries.
 - Used **WHERE**, **AND**, **OR** to filter records.
 - Used **BETWEEN** to filter records in a date or value range.
 - Sorted data using **ORDER BY** (ASC and DESC).
-- Limited the output using **LIMIT**
+- Limited the output using **LIMIT** .
 - Used aliasing **(AS)** to rename column outputs.
 - Applied **LIKE** '%value%' for pattern matching.
-- Used **DISTINCT** to show unique values in a column
-- Covered all these examples using your Library DB schema
+- Used **DISTINCT** to show unique values in a column .
+- Covered all these examples using your Library DB schema .
 - Wrote a ready-to-use SQL script.
-- All about reading data from the database using different types of SELECT queries
+- All about reading data from the database using different types of SELECT queries .
   
 ## Tools Used
 - MySQL Workbench 
