@@ -43,7 +43,7 @@ ORDER BY Amount DESC;
 -- Show only top 3 most recently joined members
 SELECT * FROM Members
 ORDER BY JoinDate DESC
-LIMIT 3;
+LIMIT 1;
 
 --Using Aliasing
 -- Display member names and emails with aliases
